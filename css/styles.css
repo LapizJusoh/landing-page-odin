@@ -4,5 +4,17 @@
 }
 
 body {
-    margin: 0 auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+main {
+    flex: 1;
 }
