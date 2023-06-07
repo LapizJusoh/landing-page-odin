@@ -64,22 +64,37 @@ main {
 
 .info-container > h2 {
     text-align: center;
+    margin: 2rem;
 }
 
 .info-card-collection {
     display: flex;
     gap: .5rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .info-image {
-    max-width: 125px;
+    max-width: 150px;
 }
 
 .info-card {
+    border: red 1px solid;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    text-align: center;
+    width: 250px;
+}
+
+.quote-container {
+    margin-top: 3rem;
+    padding: 5rem;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.action-container {
+
 }
 
 footer {
