@@ -36,6 +36,8 @@ nav > ul {
 
 nav > ul > li {
     list-style: none;
+    font: 18px;
+    color: #e5e7eb;
     margin: 0;
     padding: 0;
 }
@@ -51,6 +53,16 @@ nav > ul > li {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+}
+
+.header-text > h2 {
+    font: 48px bold;
+    color: #f9faf8;
+}
+
+.header-text > p {
+    font: 18px;
+    color: #e5e7eb;
 }
 
 .header-image {
@@ -78,7 +90,6 @@ main {
 }
 
 .info-card {
-    border: red 1px solid;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -94,7 +105,10 @@ main {
 }
 
 .action-container {
-
+    margin: 3rem 10vw;
+    background-color: #3882f6;
+    color: white;
+    padding: 20px;
 }
 
 footer {
