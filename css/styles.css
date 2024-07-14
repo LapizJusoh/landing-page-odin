@@ -1,5 +1,5 @@
 * {
-  border: red solid 1px;
+/*  border: red solid 1px; */
 }
 
 body {
@@ -16,16 +16,20 @@ header {
 
 a {
   text-decoration: none;
-  color: #f9faf8;
+  color: #e5e7eb;
 }
 
-header h1 {
-  font-size: 1.5rem;
+header nav a:hover {
+  font-style: italic;
 }
 
 header nav {
   display: flex;
   justify-content: space-between;
+}
+
+header nav h1 {
+  font-size: 1.5rem;
 }
 
 header ul {
@@ -36,4 +40,46 @@ header ul {
   font-size: 1.1rem;
   gap: 25px;
   padding: 0;
+}
+
+.Hero-Main {
+  display: flex;
+  padding-block: 90px;
+  gap: 35px;
+}
+
+.Hero-Main h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.Hero-Main div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.Hero-Main p {
+  font-size: 1.1rem;
+}
+
+.Hero-Main img {
+  max-width: 450px;
+}
+
+.Hero-Main a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+}
+
+.Hero-Main a:hover {
+  background-color: yellow;;
+  color: black;
 }
