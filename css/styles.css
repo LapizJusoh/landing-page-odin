@@ -2,7 +2,10 @@
 /*  border: red solid 1px; */
 }
 
-
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+}
 
 body {
   padding: 0;
@@ -10,21 +13,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  background-color: #1f2937;
-  color: #f9faf8;
-  padding-inline: 350px;
-}
-
-@media (max-width: 1500px) {
-  header {
-    padding-inline: 250px;
-  }
-}
-
 a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
 header nav a:hover {
@@ -50,33 +46,33 @@ header ul {
   padding: 0;
 }
 
-.Hero-Main {
+header .Hero-Main {
   display: flex;
   padding-block: 90px;
   gap: 35px;
 }
 
-.Hero-Main h1 {
+header .Hero-Main h1 {
   font-size: 3rem;
   font-weight: bolder;
   margin: 0;
 }
 
-.Hero-Main div {
+header .Hero-Main div {
   display: flex;
   flex-flow: column;
   justify-content: center;
 }
 
-.Hero-Main p {
+header .Hero-Main p {
   font-size: 1.1rem;
 }
 
-.Hero-Main img {
+header .Hero-Main img {
   max-width: 450px;
 }
 
-.Hero-Main a {
+header .Hero-Main a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,7 +83,7 @@ header ul {
   width: 100px;
 }
 
-.Hero-Main a:hover {
+header .Hero-Main a:hover {
   background-color: yellow;;
   color: black;
 }
